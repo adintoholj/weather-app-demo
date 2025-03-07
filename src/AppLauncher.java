@@ -6,6 +6,7 @@ public class AppLauncher{
             @Override
             public void run(){
                 new WeatherAplGui().setVisible(true);
+//                System.out.println(WeatherApp.getCurrentTime());
             }
         });
     }
